@@ -1,0 +1,17 @@
+{
+  "name": "derafy",
+  "version": "1.0.0",
+  "description": "Packages need to setting up environment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "author": "Ian Zheng",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
